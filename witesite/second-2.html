@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-自訂樣式(Class)</title>
+    <!-- 或以下寫在 style 語法 -->
+    <link rel="stylesheet" href="styles/link.css">
+    <!-- <link rel="stylesheet" href="styles/st1.css">
+    <link rel="stylesheet" href="styles/font.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet"> -->
+    <style>
+        /* 第二種寫法 */
+        /* @import url(styles/link.css); */
+
+        /* 以下表示   對 type h2 的  class = st1的 標籤元素作用    */
+        /* h2.st1 {
+            color: red;
+            text-decoration: underline;
+            font-style: oblique;
+        }
+
+        .st2 {
+            color: orange;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+        .col2 {
+            color: brown;
+        }
+
+        .col1 {
+            color: grey;
+        }
+
+
+
+        .sty1 {
+            font-style: italic;
+        }
+
+        .tran1 {
+
+            text-transform: uppercase;
+        }
+
+        .tran2 {
+            text-transform: capitalize;
+        }
+
+        #h1 {
+            color: blue
+        }
+
+        .co1_h1 {
+            color: brown
+        }
+
+        h1 {
+            color: green
+        }*/
+    </style>
+
+
+</head>
+<!-- id > class > type -->
+<!-- inline > embedding -->
+
+<body>
+    <h1 style="color:pink" id="h1" class="co1_h1">banana</h1>
+    <!-- h2 含有兩個 class 屬性 以 半形空格隔開 -->
+    <h2 class="st2 font1">pineapple</h2>
+    <h2 class="st1 font2">lemon</h2>
+    <h3 class="st2 font1">apple</h3>
+    <h2 class="co1 st1 tran1 col2">panda</h2>
+    <h2 class="co2 tran2">monkey</h2>
+    <p class="p">this is paragraph!</p>
+</body>
+
+</html>

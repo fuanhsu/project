@@ -1,0 +1,21 @@
+.ul {
+    list-style-type: circle;
+    /* list-style-image: url(../images/b.jpg); */
+    border: 1px solid red;
+    border-radius: 20px 0 20px 0;
+
+}
+
+.ol {
+    list-style-type: upper-roman;
+}
+
+.in {
+    background-color: orange;
+    list-style-position: inside;
+}
+
+.ou {
+    background-color: blue;
+    list-style-position: outside;
+}

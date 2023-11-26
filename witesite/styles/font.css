@@ -1,0 +1,26 @@
+/* 我們所提供的字型供下載放在伺服器路徑 */
+@font-face {
+    font-family: font1;
+    /* url 須回到上一層找到/fonts/資料夾 */
+    src: url(../fonts/JustOldFashion.ttf);
+}
+
+.font1 {
+    font-family: font1;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/SCRIPTIN.ttf);
+}
+
+.font2 {
+    font-family: font2;
+}
+
+.p {
+    font-family: 'Edu TAS Beginner', cursive;
+    /* 若是賜服氣的下載資源移除，改用後面電腦預設字體
+            從外部連結取得font-family 鑑link rel="preconnect"  取字順序
+            按照 1.‘Edu TAS’若無 才取 2. cursive(電腦本身字型)*/
+}

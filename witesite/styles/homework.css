@@ -1,0 +1,44 @@
+ body {
+     background-color: beige;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .div {
+     width: 60%;
+     border: 2px solid gray;
+     margin: auto;
+     margin-top: 20px;
+     background-color: #FFFFFF;
+ }
+
+ img {
+
+     width: 100%;
+
+ }
+
+ p {
+     font-family: 黑體-繁;
+     font-size: 1em;
+     padding: 10px 30px 20px 15px;
+     margin: 10px 10px 10px 10px;
+     line-height: 25px;
+     text-align: justify;
+ }
+
+ .fig {
+     width: 50%;
+     float: left;
+     font-size: 0.8em;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px 10px 10px;
+     border: 0.1em solid red;
+ }
+
+ h2 {
+     padding: 10px 0 10px 10px;
+ }

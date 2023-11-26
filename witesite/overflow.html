@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow元素</title>
+    <style>
+        h1 {
+            /* visibility: hidden 會佔空間 display: none 不會 */
+            /* visibility: hidden; */
+            display: none;
+        }
+
+        .over {
+            /* 30vw=30% width */
+            width: 5vw;
+            height: 10vh;
+            border: 2px solid red;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>我是h1</h1>
+    <h2>我是h2, hi消失了嗎？</h2>
+    <!-- aaa111111aaaaaaaaaa111aaaaaa 瀏覽器會將一整串英數字當作一個字元 所以原本應該斷行 因當作一字所以沒有斷行  -->
+    <div class="over">aaaaaaaaaaaaaaaaaaaaaaaaaaaaa消失消失消失消失消失</div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+h2.st1 {
+    color: red;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.st2 {
+    color: orange;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.col2 {
+    color: brown;
+}
+
+.col1 {
+    color: grey;
+}
+
+
+
+.sty1 {
+    font-style: italic;
+}
+
+.tran1 {
+
+    text-transform: uppercase;
+}
+
+.tran2 {
+    text-transform: capitalize;
+}
+
+#h1 {
+    color: blue
+}
+
+.co1_h1 {
+    color: brown
+}
+
+h1 {
+    color: green
+}
+
+p {
+    color: brown;
+    text-transform: uppercase;
+}
